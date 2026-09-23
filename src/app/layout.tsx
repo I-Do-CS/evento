@@ -26,7 +26,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             lang="en"
             className={`${geistSans.variable} ${geistMono.variable} h-full antialiased text-white`}
         >
-            <body className="bg-zinc-950">
+            <body className="bg-zinc-950 overflow-y-scroll">
                 <Container>
                     <Header />
                     {children}
