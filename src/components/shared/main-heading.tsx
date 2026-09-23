@@ -1,6 +1,6 @@
-interface Props {
+type Props = {
     children: React.ReactNode;
-}
+};
 
 export default function MainHeading({ children }: Props) {
     return (

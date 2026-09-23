@@ -1,9 +1,10 @@
 "use client";
 
-import clsx from "clsx";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+
+import { cn } from "@/lib/utils";
 
 import { Logo } from "../shared";
 
@@ -23,7 +24,7 @@ export default function Header() {
                 <ul className="flex justify-center gap-2 md:gap-x-4 h-full text-white/70 text-sm capitalize">
                     {routes.map((route) => (
                         <li
-                            className={clsx(
+                            className={cn(
                                 "relative flex justify-center items-center px-1 h-full hover:text-white transition",
                                 {
                                     "text-white": activePath === route.path,
