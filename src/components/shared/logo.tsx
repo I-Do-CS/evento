@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 import logoImag from "@/assets/images/evento.png";
 import { DIMENSIONS } from "@/lib/constants";
 
