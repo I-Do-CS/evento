@@ -1,7 +1,7 @@
 import { EventsList } from "@/components/events";
 import { MainHeading } from "@/components/shared";
 import { EVENTS_URL } from "@/lib/constants";
-import { EventoEvent } from "@/models/Event";
+import { EventoEvent } from "@/models/EventoEvent";
 
 type Props = {
     params: Promise<{

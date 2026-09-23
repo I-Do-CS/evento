@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import { EventoEvent } from "@/models/Event";
+import { EventoEvent } from "@/models/EventoEvent";
 
 import EventCard from "./event-card";
 

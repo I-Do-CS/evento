@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import placholderImage from "@/assets/images/event-placeholder-image.jpg";
 import { USE_PLACEHOLDER_IMAGE } from "@/lib/constants";
-import { EventoEvent } from "@/models/Event";
+import { EventoEvent } from "@/models/EventoEvent";
 
 type Props = {
     event: EventoEvent;
