@@ -2,11 +2,11 @@ import Link from "next/link";
 
 export default function Home() {
     return (
-        <main className="flex flex-col items-center px-3 pt-36">
+        <main className="flex flex-col items-center px-3 pt-36 text-center">
             <h1 className="font-bold text-3xl lg:text-6xl tracking-tight">
                 Find events around you
             </h1>
-            <p className="opacity-75 mt-7 mb-12 text-lg lg:text-3xl text-center tracking-wide">
+            <p className="opacity-75 mt-7 mb-12 text-lg lg:text-3xl tracking-wide">
                 Browse more than{" "}
                 <span className="font-bold text-accent underline underline-offset-2 tracking-tighter">
                     10,000
